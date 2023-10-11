@@ -1,45 +1,16 @@
-console.log("Digita o nome do seu jogador")
+console.log(">>>>>>>>>>>>>> DESAFIO CLASSIFICADOR DE HERÓI <<<<<<<<<<<<<<<<<<<");
 
-//declara uma variável
-let nickname = "Maria"
+let nome_heroi = 'Felix'
+let xp_heroi = 100001
+let nivel_heroi = ''
+ 
+if (xp_heroi < 1000){nivel_heroi = 'Ferro'}
+if (xp_heroi > 1001 && xp_heroi <2000){nivel_heroi = 'Bronze'}
+if (xp_heroi > 2001 && xp_heroi <5000){nivel_heroi = 'Prata'}
+if (xp_heroi > 6001 && xp_heroi <7000){nivel_heroi = 'Ouro'}
+if (xp_heroi > 7001 && xp_heroi <8000){nivel_heroi = 'Platina'}
+if (xp_heroi > 8001 && xp_heroi <9000){nivel_heroi = 'Ascentende'}
+if (xp_heroi > 9001 && xp_heroi <10000){nivel_heroi = 'Imortal'}
+if (xp_heroi > 10001){nivel_heroi = 'Radiante'}
 
-//concantenando uma mensagem fixa + uma variável
-console.log("Bem vinda " + nickname)
-console.log(nickname + " entrou no servidor")
-
-
-let nome =("Maria")
-let xp = 0
-
-for (xp= 1;xp<10002;xp++){
-    console.log(nome+",Ganhou mais XP por derrotar um oponente")
-    xp +=500
-    switch(true){
-        case xp<=1000:
-            console.log("O Herói de nome "+nome+" está no nível de Ferro");
-            break;
-        case xp>1001 && xp<=2000:
-            console.log("O Herói de nome "+nome+" está no nível de Bronze");
-            break;
-        case xp>=2001 && xp<=5000:
-            console.log("O Herói de nome "+nome+" está no nível de Prata");
-            break;
-        case xp>=6001 && xp<=7000:
-            console.log("O Herói de nome "+nome+" está no nível de Ouro");
-            break;
-        case xp>=7001 && xp<=8000:
-            console.log("O Herói de nome "+nome+" está no nível de Platina");
-            break;
-        case xp>=8001 && xp<=9000:
-            console.log("O Herói de nome "+nome+" está no nível de Ascendente");
-            break;
-        case xp>=9001 && xp<=10000:
-            console.log("O Herói de nome "+nome+" está no nível de Imortal");
-            break;
-        case xp>10001:
-            console.log("O Herói de nome "+nome+" está no nível de Radiante");
-            console.log("GIRA "+nome+",GIRA")
-            console.log("XP Atual:"+xp)
-            break;
-    }
-}
+console.log("  O Herói de nome "+nome_heroi+" está no nível "+nivel_heroi+"")
