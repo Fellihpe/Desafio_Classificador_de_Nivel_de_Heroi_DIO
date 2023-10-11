@@ -1,23 +1,23 @@
-# Desafio_Classificador_de_Nivel_de_Heroi_DIO
+# [Desafio_Classificador_de_Nivel_de_Heroi_DIO](https://www.dio.me/users/hugofelipesr)
+[![Dio](https://hermes.digitalinnovation.one/assets/diome/logo-full.svg)](https://www.dio.me/users/hugofelipesr)
 ## Projeto desenvolvido para resolução do desafio apresentado na plataforma DIO
-
 <br />
 
-## 🚀 Tecnologias
+## TECNOLOGIAS
 
 - JavaScript
 - Git e Github
 
 <br />
 
-**O que deve ser utilizado**
+**O QUE DEVE SER UTILIZADO**
 
  - Variáveis
  - Operadores
  - Laços de repetição
  - Estruturas de decisão
 
-## Objetivo
+## OBJETIVO
 
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar algumas das mensagens abaixo:
 
@@ -37,7 +37,7 @@ Se XP for entre 9.001 e 10.000 = Imortal
 
 Se XP for maior ou igual a 10.001 = Radiante
 
-## Saída
+## SAÍDA
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
@@ -45,5 +45,9 @@ Ao final deve se exibir uma mensagem:
 
 ---
 ---
-## 📧 Contato
+## CONTATO
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/hugo-felipe-727659236/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fellihpe)
 
