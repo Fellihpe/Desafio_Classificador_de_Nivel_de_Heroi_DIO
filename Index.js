@@ -1,16 +1,16 @@
-console.log(">>>>>>>>>>>>>> DESAFIO CLASSIFICADOR DE HERÓI <<<<<<<<<<<<<<<<<<<");
+console.log(">>>>>>>>>>>>>> DESAFIO CLASSIFICADOR DE NÍVEL DE HERÓI <<<<<<<<<<<<<<<<<<<");
 
-let nome_heroi = 'Felix'
-let xp_heroi = 100001
-let nivel_heroi = ''
+let nomeHeroi = 'Felix'
+let xpHeroi = 100001
+let nivelHeroi = ''
  
-if (xp_heroi < 1000){nivel_heroi = 'Ferro'}
-if (xp_heroi > 1001 && xp_heroi <2000){nivel_heroi = 'Bronze'}
-if (xp_heroi > 2001 && xp_heroi <5000){nivel_heroi = 'Prata'}
-if (xp_heroi > 6001 && xp_heroi <7000){nivel_heroi = 'Ouro'}
-if (xp_heroi > 7001 && xp_heroi <8000){nivel_heroi = 'Platina'}
-if (xp_heroi > 8001 && xp_heroi <9000){nivel_heroi = 'Ascentende'}
-if (xp_heroi > 9001 && xp_heroi <10000){nivel_heroi = 'Imortal'}
-if (xp_heroi > 10001){nivel_heroi = 'Radiante'}
+if (xpHeroi < 1000){nivelHeroi = 'Ferro'}
+if (xpHeroi > 1001 && xpHeroi <2000){nivelHeroi = 'Bronze'}
+if (xpHeroi > 2001 && xpHeroi <5000){nivelHeroi = 'Prata'}
+if (xpHeroi > 6001 && xpHeroi <7000){nivelHeroi = 'Ouro'}
+if (xpHeroi > 7001 && xpHeroi <8000){nivelHeroi = 'Platina'}
+if (xpHeroi > 8001 && xpHeroi <9000){nivelHeroi = 'Ascentende'}
+if (xpHeroi > 9001 && xpHeroi <10000){nivelHeroi = 'Imortal'}
+if (xpHeroi > 10001){nivelHeroi = 'Radiante'}
 
-console.log("  O Herói de nome "+nome_heroi+" está no nível "+nivel_heroi+"")
+console.log(" O Herói de nome "+nomeHeroi+" está no nível "+nivelHeroi+"")
